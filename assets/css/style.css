@@ -277,9 +277,7 @@ text-align: center;
     .analysis-table{
         min-width: 1200px; /* Set width of the text div */
     }
-    .analysis-table-s{
-        min-width: 1000px !important;
-    }
+  
     .table-div{
         width: 100px;
     }
@@ -315,6 +313,15 @@ text-align: center;
     .col-20{
         width: 80%;
         margin: 0 auto;
+    }
+    .table-wrapper2{
+        width: 100%;
+        max-width: 100%;
+        overflow-x:auto; /* Enable horizontal scrolling */
+    
+    }
+    .analysis-table-s{
+        min-width: 900px !important;
     }
 }
 @media only screen and (max-width:500px){
